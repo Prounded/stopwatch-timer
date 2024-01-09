@@ -1,0 +1,74 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    height: 55vh;
+}
+
+#DisplayClock{
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: white;
+    justify-content: center;
+    align-content: flex-start;
+    width: fit-content;
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+#timeDisplay{
+    font-size: 100px;
+}
+
+#miliSecond{
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    top: 20px;
+    bottom: 0px;
+}
+
+#buttonContainer{
+    position: absolute;
+    top: 300px;
+}
+
+.buttons{
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#startBtn{
+    background-color: rgb(41, 255, 41);
+}
+
+#resetBtn{
+    background-color: rgb(51, 184, 255);
+}
+
+#stopBtn{
+    background-color: rgb(255, 75, 75);
+}
